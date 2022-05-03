@@ -4,7 +4,7 @@ from friend import ask, append_interaction_to_chat_log
 
 app = Flask(__name__)
 # if for some reason your conversation with Jabe gets weird, change the secret key
-app.config['SECRET_KEY'] = '89djhff9lhkd94'
+app.config['SECRET_KEY'] = '89djhff82hgf94'
 @app.route('/friendbot', methods=['POST'])
 def friend():
     incoming_msg = request.values['Body']
